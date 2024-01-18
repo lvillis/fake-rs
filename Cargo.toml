@@ -1,0 +1,25 @@
+[package]
+name = "fake-rs"
+version = "0.1.0"
+authors = ["lvillis<lvillis@outlook.com>"]
+edition = "2021"
+description = "A tool for testing native-to-target port latency, using Rust."
+license = "MIT"
+repository = "https://github.com/lvillis/fake-rs"
+homepage = "https://github.com/lvillis/fake-rs"
+documentation = "https://github.com/lvillis/fake-rs/README.md"
+
+[lib]
+name = "fake_rs"
+path = "src/lib.rs"
+doctest = false
+
+[features]
+default = ["user-agent"]
+user-agent = []
+name = []
+phone = []
+ip = []
+
+[dependencies]
+fastrand = "2.0.1"
