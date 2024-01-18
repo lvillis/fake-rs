@@ -2,7 +2,7 @@
 
 <h1 align=center><code>fake-rs</code></h1>
 
-<p align=center> </p>
+<p align=center>📦 A fake data generator for Rust.</p>
 
 <div align=center>
   <a href="https://crates.io/crates/fake-rs">
