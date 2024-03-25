@@ -22,4 +22,4 @@ phone = []
 ip = []
 
 [dependencies]
-fastrand = "2.0.1"
+fastrand = "2.0.2"
